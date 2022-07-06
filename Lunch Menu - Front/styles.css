@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 21.6cm;
+  height: 27.9cm;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: .1em;
+  color: #333333;
+  
+}
+ul, li {
+  list-style-type: none;
+}
+
+/* GRID */
+
+.grid-container {
+  max-width: 21.6cm;
+  height: 27.9cm;
+  display: grid;
+  grid-template-columns: 1fr .9fr 1fr;
+  grid-template-rows: 1.1fr 4.2fr 3.74fr .3fr;
+  background-image: linear-gradient(lightyellow, gold);
+}
+header {
+  grid-column: span 3;
+  text-align: center;
+  margin: 40px 20px 10px 20px;
+  border-bottom: 1px solid #333333;
+}
+#starters {
+  background: lightgoldenrodyellow;
+  grid-row: span 2;
+  margin: 5px 5px 5px 20px;
+}
+#picture {
+  grid-row: span 2;
+  background: url(img/Ramen_5-cropped.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+}
+#soups-salads {
+  grid-row: span 1;
+  margin: 5px 20px 5px 5px;
+}
+#lunch-specials {
+  text-align: center;
+  grid-row: span 1;
+  padding: 0px 20px 0px 20px;
+  margin: 5px 20px 5px 5px;
+}
+footer {
+  grid-column: span 3;
+  text-align: center;
+  margin: 5px 20px 20px 20px;
+  font-size: .6em;
+}
+
+/* HEADER */
+
+header p {
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+.header-1999 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.logo {
+  font-family: Permanent Marker;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
+.lunch {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 550;
+  padding-bottom: 0;
+}
+
+/* MENU */
+
+.menu-category {
+  padding: 0px 15px 10px 15px;
+  background: lightgoldenrodyellow;
+  text-align: left;
+}
+.menu-category h3 {
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 625;
+  text-align: center;
+  padding: 7px 0 15px 0;
+}
+.menu-category li {
+  padding-bottom: 14px;
+}
+.menu-choice-heading {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1px;
+}
+.menu-choice {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 550;
+}
+.price {
+  text-transform: uppercase;
+  font-size: .7em;
+  font-weight: 400;
+}
+.sub-price {
+  text-align: center;
+  padding-top: 6px;
+}
+.menu-choice-description {
+  font-size: .9em;
+  font-weight: 400;
+  color: #5f5f5f;
+}
+.menu-subcategory {
+  text-align: center;
+  padding: 10px;
+}
+#dimsum h5 {
+  padding-bottom: 17px;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.1em;
+  text-align: center;
+  text-decoration: underline;
+}
+#har-gaw {
+  padding: 0;
+}
+#wonton-soup {
+  padding-top: 20px;
+}
+#miso-soup {
+  padding: 0;
+}
+#salad-dressings {
+  border: 1px solid #333333;
+  margin: 4px 0 2px 0;
+}
+#salad-dressings p {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+.special-choice {
+  padding-bottom: 2px;
+}
+.special-price {
+  text-transform: uppercase;
+  font-size: .65em;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
+
+/* 
+#tiramisu {
+  padding-bottom: 0;
+}
+*/
+
